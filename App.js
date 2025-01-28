@@ -31,7 +31,7 @@ export default function App() {
           behavior={Platform.OS === "ios" ? "padding" : "height"}
         >
           <View
-            style={{ ...styles.form, marginBottom: isShowKeybord ? 20 : 100 }}
+            style={{ ...styles.form, marginBottom: isShowKeybord ? 20 : 200 }}
           >
             <View>
               <Text style={styles.inputTitle}>Email</Text>
